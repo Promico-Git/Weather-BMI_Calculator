@@ -1,0 +1,17 @@
+Height = 1.7, Weight = 60 - BMI = 20.761245674740486 : Normal
+Height = 1.7, Weight = 90 - BMI = 31.14186851211073 : Obese
+Height = 1.7, Weight = 150 - BMI = 51.90311418685122 : Obese
+Height = 1.7, Weight = 80 - BMI = 27.68166089965398 : Overweight
+Height = 1.7, Weight = 34 - BMI = 11.764705882352942 : Underweight
+Height = 1.7, Weight = 80 - BMI = 27.68166089965398 : Overweight
+Height = 1.7, Weight = 60 - BMI = 20.761245674740486 : Normal
+Height = 1.6, Weight = 65 - BMI = 25.390624999999996 : Overweight
+Height = 1.6, Weight = 60 - BMI = 23.437499999999996 : Normal
+Height = 1.6, Weight = 65 - BMI = 25.390624999999996 : Overweight
+Height = 1.65, Weight = 65 - BMI = 23.875114784205696 : Normal
+Height = 1.66, Weight = 65 - BMI = 23.588329220496444 : Normal
+Height = 23, Weight = 24 - BMI = 0.045368620037807186 : Underweight
+Height = 23, Weight = 24 - BMI = 0.05 : Underweight
+Height = 24, Weight = 50 - BMI = 0.09 : Underweight
+Height = 35, Weight = 35 - BMI = 0.03 : Underweight
+Height = 35, Weight = 35 - BMI = 0.03 : Underweight

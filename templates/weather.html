@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+  Stellar by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K5DFZWPP');</script>
+    <!-- End Google Tag Manager -->
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5DFZWPP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <h1>Weather</h1>
+            
+          </header>
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/weather" class="active">Weather</a></li>
+            <li><a href="/bmi">BMI Calculator</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+          <div id="main">
+
+            <!-- Content -->
+              <section id="content" class="main">
+                <span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+                
+                <center>
+
+                  <b>
+                    <p>Location: {{ city }}, {{ province }}</p> 
+                    <p>Temperature: {{ temp }} °C</p> 
+                    <p>Wind: {{ wind }}</p> 
+                    <p>Pressure: {{ pressure }}</p> 
+                    <p>Humidity: {{ humidity }}</p> 
+                    <p>Description: {{ description }}</p> 
+                    <p><a href="{{ map }}" style="color:blue;">Location on Map</a></p>
+                  </b>
+                    </center>
+              </section>
+
+          </div>
+
+        
+        <!-- Footer -->
+        <footer id="footer">
+
+          <section>				
+
+            <ul class="icons">
+              <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+              <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+              <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+            </ul>
+          </section>
+
+        </footer>
+
+
+      </div>
+
+    <!-- Scripts -->
+      <script src="static/assets/js/jquery.min.js"></script>
+      <script src="static/assets/js/jquery.scrollex.min.js"></script>
+      <script src="static/assets/js/jquery.scrolly.min.js"></script>
+      <script src="static/assets/js/browser.min.js"></script>
+      <script src="static/assets/js/breakpoints.min.js"></script>
+      <script src="static/assets/js/util.js"></script>
+      <script src="static/assets/js/main.js"></script>
+
+  </body>
+</html>
